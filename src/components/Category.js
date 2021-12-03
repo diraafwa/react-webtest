@@ -7,11 +7,12 @@ import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 
 const Category = () => {
-    return (
+    return (   
+              
 <Container >
-  <Row >
+  <Row className='row-cols-2 row-cols-md-6 g-2'>
     <Col>
-        <Card>
+        <Card className='h-100'>
             <Card.Img variant="top" src="https://assets.tokodistributor.com/dev-category-icon/9d0c0944ccd05a4d3b390465266fa5b9.png" />
                 <Card.Body>
                     <Card.Title>
@@ -112,72 +113,6 @@ const Category = () => {
 
     <Col>
         <Card>
-            <Card.Img variant="top" src="https://assets.tokodistributor.com/dev-category-icon/c2f096e7f9144734ebb585e6aa3ab4b2.png" />
-                <Card.Body>
-                    <Card.Title>
-                        <div className = "title">Elektronik</div>
-                    </Card.Title>
-                </Card.Body>
-        </Card>
-    </Col>
-
-    <Col>
-        <Card>
-            <Card.Img variant="top" src="https://assets.tokodistributor.com/localtbanner/532349a96103e1b3e4579e60c32a633f1d5a218280.png" />
-                <Card.Body>
-                    <Card.Title>
-                        <div className = "title">Souvenir & Pesta</div>
-                     </Card.Title>
-                </Card.Body>
-        </Card>
-    </Col>
-
-    <Col>
-        <Card>
-            <Card.Img variant="top" src="https://assets.tokodistributor.com/dev-category-icon/3be2302a48414f8759510f8eb1cb04da.png" />
-                <Card.Body>
-                    <Card.Title>
-                        <div className = "title">Fashion & Aksesoris</div>
-                    </Card.Title>
-                </Card.Body>
-        </Card>
-    </Col>
-
-    <Col>
-        <Card>
-            <Card.Img variant="top" src="https://assets.tokodistributor.com/dev-category-icon/63ebe4923e28d1c5ef868aa4f1a81bf9.png" />
-                <Card.Body>
-                    <Card.Title>
-                        <div className = "title">Handphone & Aksesoris</div>
-                    </Card.Title>
-                </Card.Body>
-        </Card>
-    </Col>
-
-    <Col>
-        <Card>
-            <Card.Img variant="top" src="https://assets.tokodistributor.com/dev-category-icon/4eec7769efd33776fa7a32b1fa192044.png" />
-                <Card.Body>
-                    <Card.Title>
-                        <div className = "title">Perlengkapan Rumah Tangga</div>
-                    </Card.Title>
-                </Card.Body>
-        </Card>
-    </Col>
-
-    <Col>
-        <Card>
-            <Card.Img variant="top" src="https://assets.tokodistributor.com/dev-category-icon/5fe4146c38c6047649f83592c4ed997c.png" />
-                <Card.Body>
-                    <Card.Title>
-                        <div className = "title">Makanan & Minuman</div>
-                    </Card.Title>
-                </Card.Body>
-        </Card>
-    </Col>
-
-    <Col>
-        <Card>
             <Card.Img variant="top" src="https://assets.tokodistributor.com/dev-category-icon/a26456ec34b62afaec67cb2dae0a7308.png" />
                 <Card.Body>
                     <Card.Title>
@@ -230,6 +165,7 @@ const Category = () => {
     </Col>
   </Row>
 </Container>
+
   )
 
 }
