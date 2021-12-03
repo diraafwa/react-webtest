@@ -10,3 +10,15 @@
     font-size: small;
     font-weight: bolder;
 }
+.h3 {
+  position:absolute;
+  left: 0;
+  top: 0;
+  padding-left: 50rem;
+  color: #2d343e;
+  font-size: 4vw;
+}
+.card:hover {
+  background-color: #ece8e9;
+  cursor: pointer;
+}
