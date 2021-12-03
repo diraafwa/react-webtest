@@ -1,0 +1,12 @@
+.category {
+  height: 5rem;
+  padding-top: 3rem;
+  width: 6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: block;
+}
+.title{
+    font-size: small;
+    font-weight: bolder;
+}
